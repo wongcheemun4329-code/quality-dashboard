@@ -14,7 +14,7 @@ pnpm install
 pnpm dev
 ```
 
-Open http://127.0.0.1:5173/ after the development server starts.
+Open [http://127.0.0.1:5173/](http://127.0.0.1:5173/) after the development server starts.
 
 ## Verify and build
 
@@ -24,7 +24,7 @@ pnpm build
 pnpm preview
 ```
 
-The production files are emitted to dist/ and are intentionally ignored by Git.
+The production files are emitted to `dist/` and are intentionally ignored by Git.
 
 ## Main workspaces
 
@@ -38,14 +38,14 @@ The bundled demo data is stored in browser storage for local demonstration. It i
 
 ## Project structure
 
-- src/data/qualityData.ts: quality calculations, filtering, taxonomy, and workbook behavior
-- src/data/accessControl.ts: roles, permissions, and workflow rules
-- src/data/masterData.ts: shared master-data state and migrations
-- src/components/: dashboard workspaces and UI components
-- src/i18n.tsx: English and Chinese translations
+- `src/data/qualityData.ts`: quality calculations, filtering, taxonomy, and workbook behavior
+- `src/data/accessControl.ts`: roles, permissions, and workflow rules
+- `src/data/masterData.ts`: shared master-data state and migrations
+- `src/components/`: dashboard workspaces and UI components
+- `src/i18n.tsx`: English and Chinese translations
 
 ## Publishing
 
-This is a client-side Vite application and can be published to any static host. Run pnpm build, then deploy the generated dist/ directory. Configure the host to serve index.html for unknown routes if history-based navigation is enabled.
+This is a client-side Vite application and can be published to any static host. Run `pnpm build`, then deploy the generated `dist/` directory. Configure the host to serve `index.html` for unknown routes if history-based navigation is enabled.
 
-Do not commit local exports, backups, spreadsheet inspection files, or browser-generated artifacts; these are covered by .gitignore.
+Do not commit local exports, backups, spreadsheet inspection files, or browser-generated artifacts; these are covered by `.gitignore`.
