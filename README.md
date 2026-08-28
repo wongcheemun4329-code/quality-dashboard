@@ -48,4 +48,11 @@ The bundled demo data is stored in browser storage for local demonstration. It i
 
 This is a client-side Vite application and can be published to any static host. Run `pnpm build`, then deploy the generated `dist/` directory. Configure the host to serve `index.html` for unknown routes if history-based navigation is enabled.
 
+The repository is configured for the `qppm-dashboard` Firebase Hosting project:
+
+```bash
+pnpm build
+firebase deploy --only hosting
+```
+
 Do not commit local exports, backups, spreadsheet inspection files, or browser-generated artifacts; these are covered by `.gitignore`.
