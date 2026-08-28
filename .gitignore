@@ -1,0 +1,21 @@
+node_modules/
+.pnpm-store/
+dist/
+.DS_Store
+*.tsbuildinfo
+
+# Local spreadsheet inspection and generated transfer artifacts
+.spreadsheet-work-process/
+backups/
+outputs/
+node_modules/
+.pnpm-store/
+dist/
+.DS_Store
+*.tsbuildinfo
+
+# Local spreadsheet inspection and generated transfer artifacts
+.spreadsheet-work-process/
+backups/
+outputs/
+Quality-Dashboard-Transfer-*.zip
